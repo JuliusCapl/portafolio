@@ -1,0 +1,31 @@
+.projects-- {
+    background-color: #39796b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects--carousel > img {
+    background-color: rgb(100, 100, 100,);
+}
+.info-- {
+    background-color: #cfcfcf;
+    color: #212121;
+}
+.colorffffff {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .projects--div {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .projects--carousel {
+        max-width: 50vw;
+    }
+    .projects--text {
+        margin: 0 5rem 0 5rem;
+        min-width: 40vw;
+    }
+}

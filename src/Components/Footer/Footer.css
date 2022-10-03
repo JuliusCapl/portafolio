@@ -1,0 +1,17 @@
+.footer-- {
+    width: 100vw;
+    height: 95vh;
+    color: #ffffff;
+    background-color: #004d40;
+    align-items: flex-start;
+}
+.footer-- i {
+    font-size: 3rem;
+    margin: 0 5px 0 5px;
+}
+.container-- {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

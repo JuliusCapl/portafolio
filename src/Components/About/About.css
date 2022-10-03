@@ -1,0 +1,38 @@
+.about-- {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+.about--text {
+    text-align: justify;
+}
+.about--text > h3 {
+    font-size: 2rem;
+}
+.about--text > p {
+    font-size: 1.1rem;
+}
+.about--img {
+    width: 100vw;
+}
+.about--img > img {
+    width: 100vw;
+}
+@media screen and (min-width: 768px) {
+    .about-- {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about--img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 auto 0 auto;
+        height: 80vh;
+    }
+    .about--img > img {
+        height: 80vh;
+        width: auto;
+    }
+}
