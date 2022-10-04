@@ -10,7 +10,7 @@ const Navbar = ({isScrolling}) => {
     <nav className={`navbar navbar-dark navbar-expand-md nav-- ${isScrolling > 30 ? 'scrolling' : null}`}>
       <div className="container">
         <a className="navbar-brand" onClick={toTheTop}>
-          Navbar
+          [JulioKPL]
         </a>
         <button
           className="navbar-toggler"
