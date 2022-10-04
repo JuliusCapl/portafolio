@@ -1,9 +1,13 @@
 .footer-- {
-    width: 100vw;
+    min-width: 100vw;
     height: 95vh;
     color: #ffffff;
     background-color: #004d40;
     align-items: flex-start;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
 }
 .footer-- i {
     font-size: 3rem;

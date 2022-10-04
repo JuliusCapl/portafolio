@@ -4,7 +4,8 @@ import retrato from "../../Assets/retrato.jpg";
 
 const About = () => {
   return (
-    <section className="about-- container py-5 py-md-5">
+    <div className="bg-white">
+      <section className="about-- container py-5 py-md-5">
       <div className="about--text py-5 px-md-5">
         <h3 className="mb-4">A little about me...</h3>
         <p>
@@ -21,7 +22,9 @@ const About = () => {
         <img src={retrato} alt="portrait about section" />
       </div>
     </section>
-  );
+
+    </div>
+    );
 };
 
 export default About;

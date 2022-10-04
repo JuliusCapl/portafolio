@@ -20,9 +20,14 @@
     width: 100vw;
 }
 @media screen and (min-width: 768px) {
+    
     .about-- {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+    .about--text{
+        max-width: 50vw;
+        /* padding-left: 0 !important; */
     }
     .about--img {
         display: flex;
@@ -30,9 +35,10 @@
         align-items: center;
         padding: 0 auto 0 auto;
         height: 80vh;
+        overflow: hidden;
     }
     .about--img > img {
-        height: 80vh;
+        max-height: 70vh;
         width: auto;
     }
 }

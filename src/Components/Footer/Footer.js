@@ -6,11 +6,10 @@ const Footer = () => {
     <footer className='footer--'>
         <div className='container container--'>
         <div>
-            <h3>Julio Capdevilla</h3>
-            <h4>Based in Melbourne Australia</h4>
+            <h4>Based somewhere</h4>
         </div>
         <div>
-            <h4>do not hesitate contacting me</h4>
+            <h4>let's get in touch</h4>
         </div>
         <div>
             <i class="fa-brands fa-linkedin"></i>

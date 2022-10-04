@@ -3,7 +3,8 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="container py-5 contact--">
+    <div className="bg-white">
+      <section className="container py-5 contact--">
       <div>
         <h3>Contact me</h3>
       </div>
@@ -33,6 +34,7 @@ const Contact = () => {
       <button type="button" className="btn btn-outline-secondary ms-3">Clear</button>
 
       </form>
+    </section>
     </div>
   );
 };
