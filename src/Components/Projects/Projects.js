@@ -6,7 +6,7 @@ import proyecto3 from "../../Assets/proyecto3.jpg";
 
 const Projects = () => {
   return (
-    <section className="py-5 projects--">
+    <section id="projects" className="py-5 projects--">
       <div className="container projects--div">
         <div className="project--text my-5 text-center d-flex justify-content-center align-items-center">
           <h3 className="mx-md-5 colorffffff">Hey There!! have a look of my Projects</h3>
@@ -42,7 +42,7 @@ const Projects = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src={proyecto1}
+                  src={proyecto2}
                   className="d-block w-100"
                   alt="proyecto numero 1"
                 ></img>
@@ -55,7 +55,7 @@ const Projects = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src={proyecto2}
+                  src={proyecto1}
                   className="d-block w-100"
                   alt="proyecto numero 2"
                 ></img>

@@ -1,4 +1,5 @@
 .nav-- {
+    font-size: 1.5rem;
     position: fixed;
     top: 0;
     background-color: transparent;
@@ -7,6 +8,6 @@
     z-index: 3;
 }
 .scrolling{
-    background-color: #004d40;
+    background-color: #560027;
     transition: all 0.5s ease;
 }
