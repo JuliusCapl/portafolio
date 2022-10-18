@@ -12,10 +12,19 @@ const Footer = () => {
             <h4>let's get in touch</h4>
         </div>
         <div>
+            <a href="https://www.linkedin.com/in/juliocapdevilla/" target='_blank' rel='noreferrer'>
             <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/JuliusCapl" target='_blank' rel='noreferrer'>
             <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/pingberg/" target='_blank' rel='noreferrer'>
             <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/julius.capl.5" target='_blank' rel='noreferrer'>
             <i class="fa-brands fa-facebook"></i>
+            </a>
+            
         </div>
         </div>
     </footer>

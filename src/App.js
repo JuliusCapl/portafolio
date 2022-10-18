@@ -21,6 +21,7 @@ function App() {
     window.addEventListener("scroll", handleScroll);
   }, [scrollHeight]);
 
+
   return (
     <div className="App">
       <Navbar isScrolling={scrollHeight}/>

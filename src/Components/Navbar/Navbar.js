@@ -6,6 +6,13 @@ const Navbar = ({ isScrolling }) => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
+  // const scrollToSection = (elementRef)=>{
+  //   window.scrollTo({
+  //     top: elementRef.current.offsetTop,
+  //     behavior:"smooth"
+  //   })
+  // }
+
   return (
     <nav
       className={`navbar navbar-dark navbar-expand-md nav-- ${
@@ -13,9 +20,12 @@ const Navbar = ({ isScrolling }) => {
       }`}
     >
       <div className="container">
-        <a className="navbar-brand" onClick={toTheTop}>
+        <h2 type="button" className="navbar-brand" onClick={toTheTop}>
           [JulioKPL]
-        </a>
+        </h2>
+        {/* <a className="navbar-brand" onClick={toTheTop}>
+          [JulioKPL]
+        </a> */}
         <button
           className="navbar-toggler"
           type="button"
@@ -28,12 +38,22 @@ const Navbar = ({ isScrolling }) => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ms-auto">
-            <a className="nav-link">Home</a>
-            <a className="nav-link">About</a>
-            <a className="nav-link">Projects</a>
-            <a className="nav-link">Contact</a>
-          </div>
+          <ul className="navbar-nav ms-auto">
+            <a href="#home" type="button" className="nav-link">
+              Home
+            </a>
+            
+            <a href="#about" type="button" className="nav-link">
+              About
+            </a>
+
+            <a href="#projects" type="button" className="nav-link">
+              Projects
+            </a>
+            <a href="#contact" type="button" className="nav-link">
+              Contact
+            </a>
+          </ul>
         </div>
       </div>
     </nav>

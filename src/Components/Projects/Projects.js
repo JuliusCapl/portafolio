@@ -47,7 +47,7 @@ const Projects = () => {
                   alt="proyecto numero 1"
                 ></img>
                 <div className="carousel-caption d-none d-md-block info--">
-                  <h5>Project number one</h5>
+                  <h5>Project number 1</h5>
                   <p>
                     Some representative placeholder content for the first slide.
                   </p>

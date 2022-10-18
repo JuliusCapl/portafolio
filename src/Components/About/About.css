@@ -1,4 +1,5 @@
 .about-- {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +16,7 @@
 }
 .about--img {
     width: 100vw;
+    overflow: hidden;
 }
 .about--img > img {
     width: 100vw;
@@ -27,7 +29,6 @@
     }
     .about--text{
         max-width: 50vw;
-        /* padding-left: 0 !important; */
     }
     .about--img {
         display: flex;

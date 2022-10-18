@@ -9,6 +9,10 @@
     bottom: 0;
     z-index: -2;
 }
+.footer-- a {
+    color: #ffffff;
+    margin-right: 1.4rem;
+}
 .footer-- i {
     font-size: 3rem;
     margin: 0 5px 0 5px;
